@@ -1,0 +1,25 @@
+{
+  "name": "ddry-mocha-tape",
+  "version": "0.0.2",
+  "description": "Mounts both test harnesses to ddry. For testing ddry itself mostly.",
+  "repository": {
+    "type": "git",
+    "url": "ddry/ddry-mocha-tape"
+  },
+  "files": [
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "ddry",
+    "mocha",
+    "tape"
+  ],
+  "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ddry": "0.0.2",
+    "mocha": "^3.2.0",
+    "tape": "^4.6.3"
+  }
+}
