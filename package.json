@@ -2,6 +2,9 @@
   "name": "ddry-mocha-tape",
   "version": "0.0.4",
   "description": "Mounts both test harnesses to ddry. For testing ddry itself mostly.",
+  "scripts": {
+    "test": "make test && make coveralls"
+  },
   "repository": {
     "type": "git",
     "url": "ddry/ddry-mocha-tape"
