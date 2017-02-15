@@ -1,6 +1,6 @@
 {
   "name": "ddry-mocha-tape",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Mounts both test harnesses to ddry. For testing ddry itself mostly.",
   "scripts": {
     "test": "make test && make coveralls"
