@@ -4,11 +4,11 @@
 
 <img src="https://cloud.githubusercontent.com/assets/5163953/22628172/6b91f120-ebe0-11e6-8456-0f5b2dc3a553.png" alt="ddry logo" width="250">
 
-Mounts both test harnesses to **ddry**. It's hardly beleivable that you'll ever need this setup, it is for testing **ddry** itself mostly.
+Mounts both test harnesses to **ddry**. It's hardly believable that you'll ever need this setup, it is for testing **ddry** itself mostly.
 
 Includes:
 
-- [ddry](https://www.npmjs.com/package/ddry) v0.0.10
+- [ddry](https://www.npmjs.com/package/ddry) v0.0.11
 - [Mocha](https://www.npmjs.com/package/mocha) v3.2.0
 - [Tape](https://www.npmjs.com/package/tape) v4.6.3
 
