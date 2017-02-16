@@ -8,7 +8,7 @@ Mounts both test harnesses to **ddry**. It's hardly believable that you'll ever 
 
 Includes:
 
-- [ddry](https://www.npmjs.com/package/ddry) v0.0.11
+- [ddry](https://www.npmjs.com/package/ddry) v0.0.12
 - [Mocha](https://www.npmjs.com/package/mocha) v3.2.0
 - [Tape](https://www.npmjs.com/package/tape) v4.6.3
 
