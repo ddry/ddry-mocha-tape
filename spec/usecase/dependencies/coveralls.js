@@ -3,9 +3,9 @@
   'use strict';
   module.exports = function(dd) {
     return dd.drive({
-      it: "includes 'tape'",
+      it: "includes 'coveralls'",
       i: [],
-      e: 'node_modules/tape/index.js'
+      e: 'node_modules/coveralls/index.js'
     });
   };
 

@@ -3,9 +3,9 @@
   'use strict';
   module.exports = function(dd) {
     return dd.drive({
-      it: "includes 'tape'",
+      it: "includes 'tap'",
       i: [],
-      e: 'node_modules/tape/index.js'
+      e: 'tap/lib/tap.js'
     });
   };
 

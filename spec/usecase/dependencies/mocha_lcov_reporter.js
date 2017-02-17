@@ -3,9 +3,9 @@
   'use strict';
   module.exports = function(dd) {
     return dd.drive({
-      it: "includes 'tape'",
+      it: "includes 'mocha-lcov-reporter'",
       i: [],
-      e: 'node_modules/tape/index.js'
+      e: 'node_modules/mocha-lcov-reporter/index.js'
     });
   };
 

@@ -5,11 +5,23 @@
     format: function(path) {
       return path.split('/').slice(-3).join('/');
     },
+    coveralls: function() {
+      return this.format(require.resolve('coveralls'));
+    },
     ddry: function() {
       return this.format(require.resolve('ddry'));
     },
+    ddry_tap_spec: function() {
+      return this.format(require.resolve('ddry-tap-spec'));
+    },
     mocha: function() {
       return this.format(require.resolve('mocha'));
+    },
+    mocha_lcov_reporter: function() {
+      return this.format(require.resolve('mocha-lcov-reporter'));
+    },
+    tap: function() {
+      return this.format(require.resolve('tap'));
     },
     tape: function() {
       return this.format(require.resolve('tape'));

@@ -4,13 +4,19 @@
 
 <img src="https://cloud.githubusercontent.com/assets/5163953/22628172/6b91f120-ebe0-11e6-8456-0f5b2dc3a553.png" alt="ddry logo" width="250">
 
-Mounts both test harnesses to **ddry**. It's hardly believable that you'll ever need this setup, it is for testing **ddry** itself mostly.
+Mounts three test harnesses and three test utility modules to **ddry**. It's hardly believable that you'll ever need this setup, it is for testing **ddry** itself mostly.
 
 Includes:
 
-- [ddry](https://www.npmjs.com/package/ddry) v0.0.12
+- [ddry](https://www.npmjs.com/package/ddry) v0.0.13
 - [Mocha](https://www.npmjs.com/package/mocha) v3.2.0
+- [TAP](https://www.npmjs.com/package/tap) v10.1.1
 - [Tape](https://www.npmjs.com/package/tape) v4.6.3
+- [ddry-tap-spec](https://www.npmjs.com/package/ddry-tap-spec) v0.0.2
+- [coveralls](https://www.npmjs.com/package/coveralls) v2.11.16
+- [mocha-lcov-reporter](https://www.npmjs.com/package/mocha-lcov-reporter) v1.2.0
+
+Anyway, this powerful setup enables this module to be used as only **devDependency**.
 
 Version reflects **ddry** version, and **ddry** core remains accessible via
 
@@ -18,4 +24,12 @@ Version reflects **ddry** version, and **ddry** core remains accessible via
 DataDriven = require 'ddry'
 ```
 
+Modular usage starts from
 
+```coffee
+spec = require('ddry/modular')()
+spec.apply
+  title: 'Your awesome module'
+  code: 'lib'
+  spec: 'spec'
+```

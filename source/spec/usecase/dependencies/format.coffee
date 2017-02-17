@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports = (dd, that) ->
+module.exports = (dd) ->
   dd.drive
     it: "formats resolved filename"
     i: [ 'wherever/it/can/be/in/whatever/environment/node_modules/ddry/index.js' ]
