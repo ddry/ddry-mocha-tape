@@ -1,9 +1,10 @@
-.PHONY: co coveralls mo mocha ta tape test
+.PHONY: c- coveralls mocha tap tape test
 
-co:
-	coffee -cwo . source
+c- c-%:
+	coffee -c$*o . source
 
 coveralls:
+	make tape tap
 	istanbul cover ./node_modules/mocha/bin/_mocha spec/main.js --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
 
 mocha:

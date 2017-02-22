@@ -1,9 +1,9 @@
 {
   "name": "ddry-mocha-tape",
   "version": "0.0.14",
-  "description": "Mounts both test harnesses to ddry. For testing ddry itself mostly.",
+  "description": "Includes Mocha, Tap, Tape and all the utilities to test ddry itself",
   "scripts": {
-    "test": "make test && make coveralls"
+    "test": "make coveralls"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ddry": "~0.0.14",
+    "ddry": "0.0.15",
     "ddry-tap-spec": "0.0.2",
     "mocha": "^3.2.0",
     "tap": "^10.2.0",
