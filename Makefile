@@ -1,6 +1,6 @@
 .PHONY: c- coveralls mocha tap tape test
 
-c- c-%:
+c-%:
 	coffee -c$*o . source
 
 coveralls:
