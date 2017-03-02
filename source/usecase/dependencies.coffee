@@ -13,6 +13,9 @@ module.exports =
   ddry_tap_spec: ->
     @.format require.resolve('ddry-tap-spec')
 
+  istanbul: ->
+    @.format require.resolve('istanbul')
+
   mocha: ->
     @.format require.resolve('mocha')
 

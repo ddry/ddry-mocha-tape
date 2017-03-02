@@ -14,6 +14,9 @@
     ddry_tap_spec: function() {
       return this.format(require.resolve('ddry-tap-spec'));
     },
+    istanbul: function() {
+      return this.format(require.resolve('istanbul'));
+    },
     mocha: function() {
       return this.format(require.resolve('mocha'));
     },
