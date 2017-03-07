@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ "$NPM_BIN" = "" ]; then \
-  export NPM_BIN=./node_modules/.bin; \
+if [ "$NPM_ROOT" = "" ]; then \
+  export NPM_ROOT=./node_modules; \
 fi
-$NPM_BIN/ddry $*
-$NPM_BIN/mocha $NPM_BIN/ddry/cli.js
+$NPM_ROOT/.bin/ddry $*
+$NPM_ROOT/.bin/mocha $NPM_ROOT/ddry/cli.js

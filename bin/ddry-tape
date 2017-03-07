@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ "$NPM_BIN" = "" ]; then \
-  export NPM_BIN=./node_modules/.bin; \
+if [ "$NPM_ROOT" = "" ]; then \
+  export NPM_ROOT=./node_modules; \
 fi
-$NPM_BIN/ddry $*
-$NPM_BIN/tape $NPM_BIN/ddry/cli.js | grep -v 'muteTape' | $NPM_BIN/tap-spec
+$NPM_ROOT/.bin/ddry $*
+$NPM_ROOT/.bin/tape $NPM_ROOT/ddry/cli.js | grep -v 'muteTape' | $NPM_ROOT/.bin/tap-spec
