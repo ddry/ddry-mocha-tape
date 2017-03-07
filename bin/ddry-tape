@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$NPM_BIN" = "" ]; then \
+  export NPM_BIN=./node_modules/.bin; \
+fi
+$NPM_BIN/ddry $*
+$NPM_BIN/tape $NPM_BIN/ddry/cli.js | grep -v 'muteTape' | $NPM_BIN/tap-spec

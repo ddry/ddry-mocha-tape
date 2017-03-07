@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$NPM_BIN" = "" ]; then \
+  export NPM_BIN=./node_modules/.bin; \
+fi
+$NPM_BIN/ddry $*
+$NPM_BIN/tap $NPM_BIN/ddry/cli.js

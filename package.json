@@ -3,7 +3,7 @@
   "version": "0.1.7",
   "description": "Includes Mocha, Tap, Tape and all the utilities to test ddry itself",
   "scripts": {
-    "test": "make coveralls"
+    "test": "make coveralls",
   },
   "repository": {
     "type": "git",
@@ -11,8 +11,14 @@
   },
   "files": [
     "LICENSE",
-    "README.md"
+    "README.md",
+    "bin/"
   ],
+  "bin": {
+    "ddry-mocha": "bin/ddry-mocha",
+    "ddry-tap": "bin/ddry-tap",
+    "ddry-tape": "bin/ddry-tape"
+  },
   "keywords": [
     "ddry",
     "mocha",
@@ -21,8 +27,8 @@
   "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "coveralls": "^2.11.16",
-    "ddry": "^0.1.7",
+    "coveralls": "^2.12.0",
+    "ddry": "^0.1.10",
     "ddry-tap-spec": "0.0.2",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
