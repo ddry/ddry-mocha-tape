@@ -3,7 +3,7 @@
   "version": "0.1.7",
   "description": "Includes Mocha, Tap, Tape and all the utilities to test ddry itself",
   "scripts": {
-    "test": "make coveralls",
+    "test": "make coveralls"
   },
   "repository": {
     "type": "git",
