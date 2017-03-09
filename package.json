@@ -1,6 +1,6 @@
 {
   "name": "ddry-mocha-tape",
-  "version": "0.1.10-p01",
+  "version": "0.1.11",
   "description": "Includes Mocha, Tap, Tape and all the utilities to test ddry itself",
   "scripts": {
     "test": "make coveralls"
