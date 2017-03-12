@@ -3,5 +3,5 @@ set -e
 if [ "$NPM_ROOT" = "" ]; then \
   export NPM_ROOT=node_modules; \
 fi
-$NPM_ROOT/.bin/ddry $*
+. $NPM_ROOT/.bin/ddry "$@"
 $NPM_ROOT/.bin/mocha $DDRY_CLI
