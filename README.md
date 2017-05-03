@@ -8,13 +8,13 @@ Mounts three test harnesses and three test utility modules to **ddry**. It's har
 
 Includes:
 
-- [ddry](https://www.npmjs.com/package/ddry) v0.1.11
-- [Mocha](https://www.npmjs.com/package/mocha) v3.2.0
-- [TAP](https://www.npmjs.com/package/tap) v10.3.0
+- [ddry](https://www.npmjs.com/package/ddry) v0.1.13
+- [Mocha](https://www.npmjs.com/package/mocha) v3.3.0
+- [TAP](https://www.npmjs.com/package/tap) v10.3.2
 - [Tape](https://www.npmjs.com/package/tape) v4.6.3
 - [ddry-tap-spec](https://www.npmjs.com/package/ddry-tap-spec) v0.0.2
 - [istanbul](https://www.npmjs.com/package/istanbul) v0.4.5
-- [coveralls](https://www.npmjs.com/package/coveralls) v2.12.0
+- [coveralls](https://www.npmjs.com/package/coveralls) v2.13.1
 - [mocha-lcov-reporter](https://www.npmjs.com/package/mocha-lcov-reporter) v1.3.0
 
 Anyway, this powerful setup enables this module to be used in **ddry** as only **devDependency**.
