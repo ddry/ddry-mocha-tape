@@ -1,0 +1,8 @@
+{
+  "title": "ddry, Mocha and Tape dependencies presence",
+  "code": "usecase",
+  "spec": "spec",
+  "moduleTitles": {
+    "dependencies": "ddry-mocha-tape dependencies"
+  }
+}
