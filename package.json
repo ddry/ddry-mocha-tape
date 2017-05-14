@@ -28,10 +28,10 @@
   "license": "MIT",
   "dependencies": {
     "coveralls": "^2.13.1",
-    "ddry": "^0.1.17",
+    "ddry": "^0.1.18",
     "ddry-tap-spec": "0.0.2",
     "istanbul": "^0.4.5",
-    "mocha": "^3.3.0",
+    "mocha": "3.3.0",
     "mocha-lcov-reporter": "^1.3.0",
     "tap": "^10.3.2",
     "tape": "^4.6.3"

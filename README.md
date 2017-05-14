@@ -8,7 +8,7 @@ Mounts three test harnesses and three test utility modules to **ddry**. It's har
 
 Includes:
 
-- [ddry](https://www.npmjs.com/package/ddry) v0.1.17
+- [ddry](https://www.npmjs.com/package/ddry) v0.1.18
 - [Mocha](https://www.npmjs.com/package/mocha) v3.3.0
 - [TAP](https://www.npmjs.com/package/tap) v10.3.2
 - [Tape](https://www.npmjs.com/package/tape) v4.6.3
@@ -51,7 +51,7 @@ And that's it, now you have `ddry-mocha`, `ddry-tap` and `ddry-tape` shell comma
 ### Programmatical usage
 **(obsolete)**
 
-Feed to your harness any JS file of your choice and start **ddry** modular usage from
+Feed to your test harness any JS file of your choice and start **ddry** modular usage from
 
 ```coffee
 spec = require('ddry/modular')()
