@@ -8,8 +8,8 @@ Mounts three test harnesses and three test utility modules to **ddry**. It's har
 
 Includes:
 
-- [ddry](https://www.npmjs.com/package/ddry) v0.1.18
-- [Mocha](https://www.npmjs.com/package/mocha) v3.3.0
+- [ddry](https://www.npmjs.com/package/ddry) v0.1.19
+- [Mocha](https://www.npmjs.com/package/mocha) v3.4.1
 - [TAP](https://www.npmjs.com/package/tap) v10.3.2
 - [Tape](https://www.npmjs.com/package/tape) v4.6.3
 - [ddry-tap-spec](https://www.npmjs.com/package/ddry-tap-spec) v0.0.2
