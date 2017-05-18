@@ -8,7 +8,7 @@ Mounts three test harnesses and three test utility modules to **ddry**. It's har
 
 Includes:
 
-- [ddry](https://www.npmjs.com/package/ddry) v0.1.20
+- [ddry](https://www.npmjs.com/package/ddry) v0.1.21
 - [Mocha](https://www.npmjs.com/package/mocha) v3.4.1
 - [TAP](https://www.npmjs.com/package/tap) v10.3.2
 - [Tape](https://www.npmjs.com/package/tape) v4.6.3
@@ -23,7 +23,7 @@ Version reflects **ddry** version.
 
 ### Few words about ddry
 
-It made to remove all the error-prone code clutter from testing. No more fiddling with `require` target code modules for testing or assertion libraries. You simply _(convention-over-configuration)_ organize your spec folder similar to your code folder, where module spec folder structure resembles module properties and methods structure, and in `spec/someFolder/someModule/someMethod.js` file you have the context of `someMethod` of `someModule` without any requiring — [ddry](https://www.npmjs.com/package/ddry) does it for you seamlessly and transparently. Then in this way placed file
+It is made to remove all the error-prone code clutter from testing. No more fiddling with `require` target code modules for testing or assertion libraries. You simply _(convention-over-configuration)_ organize your spec folder similar to your code folder, where module spec folder structure resembles module properties and methods structure, and in `spec/someFolder/someModule/someMethod.js` file you have the context of `someMethod` of `someModule` without any requiring — [ddry](https://www.npmjs.com/package/ddry) does it for you seamlessly and transparently. Then in this way placed file
 
 ```coffee
 'use strict'
@@ -87,7 +87,7 @@ $ sudo npm i -g ddry-mocha-tape
 
 Well, we have `devDependencies` installed and set of shell commands. Now you can start your `ddry.json` file with `$ ddry i` (`init`) command. It is very easy and welcoming and has quite comprehensive documentation accessible via `$ ddry ? i` command.
 
-Then you can populate your spec folder with data-driven specs and adjust `ddry.json` file for running specs from within the test harness of your choice. Just pass to it the `./node_modules/ddry/ddry.js` file. Please check [Makefile](https://github.com/ddry/ddry-tap/blob/master/Makefile) of this project for examples for every supported test harness.
+Then you can populate your spec folder with data-driven specs and adjust `ddry.json` file for running specs from within the test harness of your choice. Just pass to it the `./node_modules/ddry/ddry.js` file. Please check [Makefile](https://github.com/ddry/ddry-mocha-tape/blob/master/Makefile) of this project for examples for every supported test harness.
 
 `ddry.json` contains full information on data-driven testing of the project. It may have or may not have advanced configuration options which are subject to [ddry](https://www.npmjs.com/package/ddry) core documentation. Anyway, whatever comfort you may have in addition to editing `ddry.json` manually, `ddry` shell command delivers.
 
