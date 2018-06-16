@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "coveralls": "^3.0.1",
-    "ddry": "^0.1.23",
+    "ddry": "^0.1.24",
     "ddry-tap-spec": "0.0.3",
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
