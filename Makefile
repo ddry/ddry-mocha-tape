@@ -13,7 +13,6 @@ coveralls:
 
 mocha:
 	./node_modules/.bin/mocha \
-		--no-exit \
 		./node_modules/ddry/ddry.js \
 		--check-leaks
 
