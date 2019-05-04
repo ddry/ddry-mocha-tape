@@ -30,7 +30,7 @@
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "coveralls": "^3.0.3",
-    "ddry": "^0.1.26",
+    "ddry": "^0.1.27",
     "ddry-tap-spec": "0.0.3",
     "istanbul": "^0.4.5",
     "mocha": "^6.1.4",
