@@ -13,7 +13,7 @@ Includes:
 - [TAP](https://www.npmjs.com/package/tap) v13.1.2
 - [Tape](https://www.npmjs.com/package/tape) v4.10.1
 - [ddry-tap-spec](https://www.npmjs.com/package/ddry-tap-spec) v0.0.3
-- [istanbul](https://www.npmjs.com/package/istanbul) v0.4.5
+- [nyc](https://www.npmjs.com/package/nyc) v14.1.0
 - [coveralls](https://www.npmjs.com/package/coveralls) v3.0.3
 - [mocha-lcov-reporter](https://www.npmjs.com/package/mocha-lcov-reporter) v1.3.0
 
