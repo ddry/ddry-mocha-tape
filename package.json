@@ -30,12 +30,12 @@
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "coveralls": "^3.0.3",
-    "ddry": "^0.1.25",
+    "ddry": "^0.1.26",
     "ddry-tap-spec": "0.0.3",
     "istanbul": "^0.4.5",
     "mocha": "^6.1.4",
     "mocha-lcov-reporter": "^1.3.0",
-    "tap": "^13.0.4",
+    "tap": "^13.1.2",
     "tape": "^4.10.1"
   }
 }
