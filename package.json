@@ -27,14 +27,14 @@
   "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "coveralls": "^3.0.3",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "coveralls": "^3.0.9",
     "ddry": "^0.1.28",
     "ddry-tap-spec": "0.0.3",
-    "mocha": "^6.1.4",
-    "nyc": "^14.1.0",
-    "tap": "^13.1.2",
-    "tape": "^4.10.1"
+    "mocha": "^7.0.1",
+    "nyc": "^15.0.0",
+    "tap": "^14.10.6",
+    "tape": "^4.13.0"
   }
 }
